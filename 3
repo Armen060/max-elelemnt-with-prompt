@@ -1,0 +1,26 @@
+let arr;
+    function samArray(){
+  arr=[];
+while(true){
+  let number=+prompt("Enter number");
+  if(number===""||number===null||!isFinite(number)){
+    break;
+  }
+  arr.push(number);
+} 
+  return arr;
+}
+console.log(samArray());
+
+let max;
+function maxElementsamArray() {
+for(let i=0;i<arr.length;i++){
+  max=arr[0];
+  if(arr[i]>max){
+    max=arr[i];
+  } 
+}
+  return max;
+}  
+ let value=maxElementsamArray();
+ console.log("max element is  "  +   value);
